@@ -4,19 +4,9 @@ Deployed on:
 https://nord-challenge.netlify.app/
 
 Storybook Deployed on:
-https://nord-storybook.netlify.app/
-
+https://nord-challenge-storybook.netlify.app/
 test coverage:
 https://nord-test-coverage.netlify.app/
-
-## Before running
-
-In order to use the 'financialmodelingprep' API you need an `Authentication token`, which you will put in the environment variables (`.env.local`) of the project.
-
-[Adding a custom environment variables](https://nextjs.org/docs/basic-features/environment-variables)
-
-After signing up to `financialmodelingprep.com` and copying the token set it in `.env.local` for `REACT_APP_AUTHORIZATION_TOKEN`
-then install by `yarn` and then run with `yarn dev` in yuor local
 
 ## Available Scripts
 
@@ -47,4 +37,4 @@ you can run storybook wiht this.
 Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
 ## read more
-https://nord-storybook.netlify.app/
+https://nord-challenge-storybook.netlify.app/
