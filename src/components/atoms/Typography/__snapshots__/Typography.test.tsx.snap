@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography should render correctly and match to the Snapshot 1`] = `
+<p
+  className="mt-6 text-center text-3xl font-extrabold text-gray-900"
+>
+  Typography
+</p>
+`;

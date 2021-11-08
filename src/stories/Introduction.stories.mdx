@@ -1,0 +1,251 @@
+import { Meta } from '@storybook/addon-docs';
+import Code from './assets/code-brackets.svg';
+import Colors from './assets/colors.svg';
+import Comments from './assets/comments.svg';
+import Direction from './assets/direction.svg';
+import Flow from './assets/flow.svg';
+import Plugin from './assets/plugin.svg';
+import Repo from './assets/repo.svg';
+import StackAlt from './assets/stackalt.svg';
+
+<Meta title="Introduction" />
+
+<style>{`
+  .subheading {
+    --mediumdark: '#999999';
+    font-weight: 900;
+    font-size: 13px;
+    color: #999;
+    letter-spacing: 6px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 40px;
+  }
+
+  .link-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+  }
+
+  @media (min-width: 620px) {
+    .link-list {
+      row-gap: 20px;
+      column-gap: 20px;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media all and (-ms-high-contrast:none) {
+  .link-list {
+      display: -ms-grid;
+      -ms-grid-columns: 1fr 1fr;
+      -ms-grid-rows: 1fr 1fr;
+    }
+  }
+
+  .link-item {
+    display: block;
+    padding: 20px 30px 20px 15px;
+    border: 1px solid #00000010;
+    border-radius: 5px;
+    transition: background 150ms ease-out, border 150ms ease-out, transform 150ms ease-out;
+    color: #333333;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .link-item:hover {
+    border-color: #1EA7FD50;
+    transform: translate3d(0, -3px, 0);
+    box-shadow: rgba(0, 0, 0, 0.08) 0 3px 10px 0;
+  }
+
+  .link-item:active {
+    border-color: #1EA7FD;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .link-item strong {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  .link-item img {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    flex: none;
+  }
+
+  .link-item span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .tip {
+    display: inline-block;
+    border-radius: 1em;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 700;
+    background: #E7FDD8;
+    color: #66BF3C;
+    padding: 4px 12px;
+    margin-right: 10px;
+    vertical-align: top;
+  }
+
+  .tip-wrapper {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .tip-wrapper code {
+    font-size: 12px;
+    display: inline-block;
+  }
+
+  .logo{
+    height: 300px;
+    fill: black;
+    opacity: 0.5;
+  }
+
+  
+`}</style>
+
+<img src="https://icon-library.com/images/flat-home-icon/flat-home-icon-8.jpg" alt="Build" class="logo" />
+
+# Welcome to Storybook of Homework
+
+<br/>
+<br/>
+
+<br/>
+
+
+
+### Available Scripts
+
+In the project directory, you can run:
+
+``` yarn install ```
+
+It needed for  installing 
+
+```yarn dev```
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+```yarn test```
+
+Launches the test runner in the interactive watch mode.\
+
+```yarn build```
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the .next.\
+Your app is ready to be deployed!
+
+```yarn sb```
+
+you can run storybook wiht this.
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
+
+____
+
+Used react hooks we have some custom hook for handling logic to have a reactive behavior for call data or using global state manager.
+find them in the hooks folder.
+
+Context react is used for state management and it is implemented as hooks to add/edit states.
+For the token used local storage to keep persisting after closing the page and opening it another time.
+
+Nextjs is used here just as a router and doesn't have any added value as SSR/SSG.
+
+For API call use-HTTP used a third party to have it as a hook.
+
+Tailwind CSS is used for the style of components implementation so we will possible to write the logic inside of the component for handling class and minifying and keeping simple the logic of the component for managing the style varieties.
+
+<span className="tip">Tip</span> 
+click on header on table to change the sort.
+
+
+<div className="tip-wrapper">
+  <span className="tip">Tip</span> We're tasked with making interfaces for more users in more contexts using more browsers on more devices with more screen sizes and more capabilities than ever before.
+so reusability is a key here and the ability to broken elements into a lego base architecture to be possible think on them for creating UI content by very variant combination and i used Atomic components for this reason here and it can be a good practice to have it from the UI/UX design until implementation. 
+</div>
+
+### Architecture
+
+Atomic design is a methodology composed of five distinct stages working together to create interface design systems in a more deliberate and hierarchical manner. The five stages of atomic design are:
+
+* Atoms
+* Molecules
+* Organisms
+* Templates
+* Pages
+
+
+
+and I tried to break down the UI element to these levels and these are presented here in the storybook for trying out as a visual test.
+the logic is just implemented on page level although in use-case we can make a decision n to have this approach or not.
+
+### Component structure and extensions:
+
+``` javascript
+Component.interface.ts                  // for interfaces and type definitions
+Component.stories.tsx                   // presenting the visual presentation in storybook
+Component.mock.tsx                      // mock data for presenting in storybook or  using for unit test
+Component.test.tsx                      // unit test or functional test
+Component.tsx                           // component implemented and exported from here
+Component.helper.tsx                    // some functionality like modification data, validation, mapper, or any functional behavior can be separated from the UI can more here from the main component file just for keeping simple that file. if functionality has reusability can move it to utility or a helper file in a general level folder
+```
+
+I didn't have enough time to doing unit test/ e2e test there or committing in a meaningful way like divination any part of implementations as feature branch and merging to code base in git-flow method.
+
+<div className="subheading">ACCESSIBILITY</div>
+
+<div className="link-list">
+  <a
+    className="link-item"
+    href="https://nord-challenge.netlify.app/"
+    target="_blank"
+  >
+    <img src={Plugin} alt="plugin" />
+    <span>
+      <strong>Homework</strong>
+      Deploement wiht Continus delivery by Netlify.
+    </span>
+  </a>
+  <a className="link-item" href="https://github.com/chorakchi/nord-challenge" target="_blank">
+    <img src={Code} alt="code" />
+    <span>
+      <strong>GitHub project</strong>
+      View the source and add issues
+    </span>
+  </a>
+  <a
+    className="link-item"
+    href="https://nord-test-coverage.netlify.app"
+    target="_blank"
+  >
+    <img src={Flow} alt="flow" />
+    <span>
+      <strong>Test Coverage</strong>
+      Integrated countinsly update after any committing
+    </span>
+  </a>
+</div>
+

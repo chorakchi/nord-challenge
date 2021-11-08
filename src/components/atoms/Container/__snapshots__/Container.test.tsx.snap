@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should render correctly and match to the Snapshot 1`] = `
+<div
+  className="flex flex-col h-screen container mx-auto justify-center"
+>
+  <div
+    className="fade-in min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8"
+  >
+    Container
+  </div>
+</div>
+`;

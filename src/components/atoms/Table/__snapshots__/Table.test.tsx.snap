@@ -1,0 +1,632 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography should render correctly and match to the Snapshot 1`] = `
+<table
+  className="relative min-w-full divide-y divide-gray-200"
+>
+  <thead
+    className="sticky"
+  >
+    <tr>
+      <th
+        className="sticky bg-white top-0 px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider hover:bg-purple-50 cursor-pointer"
+        onClick={[Function]}
+        scope="col"
+      >
+        Name
+      </th>
+      <th
+        className="sticky bg-white top-0 px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider hover:bg-purple-50 cursor-pointer"
+        onClick={[Function]}
+        scope="col"
+      >
+        Distance
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="bg-white divide-y divide-gray-200"
+  >
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Germany #21
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          431
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Singapore #70
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          581
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Germany #76
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          566
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          United States #67
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1815
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Singapore #91
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          191
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          United Kingdom #48
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          199
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          United States #45
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          151
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Latvia #95
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1562
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Germany #39
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1604
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Japan #64
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1584
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Singapore #68
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          567
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          United Kingdom #41
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          502
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Lithuania #48
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          110
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Latvia #26
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1862
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          United Kingdom #68
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1069
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Japan #62
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1769
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          United States #57
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1503
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Germany #56
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          834
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Japan #70
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          752
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          United States #39
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          414
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          United Kingdom #38
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          994
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Latvia #86
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          668
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Latvia #35
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          260
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Singapore #36
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          19
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Singapore #56
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          947
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Germany #86
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          697
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Singapore #26
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1423
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          United States #98
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          654
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Latvia #42
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          178
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          Singapore #40
+        </div>
+      </td>
+      <td
+        className="px-6 py-4 whitespace-nowrap"
+      >
+        <div
+          className="text-sm text-gray-900"
+        >
+          1329
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

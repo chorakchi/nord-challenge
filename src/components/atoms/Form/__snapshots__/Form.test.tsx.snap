@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render correctly and match to the Snapshot 1`] = `
+<form
+  action="#"
+  className="mt-8 space-y-6"
+  method="POST"
+>
+  <input
+    name="remember"
+    type="hidden"
+    value="true"
+  />
+</form>
+`;
